@@ -1,0 +1,10 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/year-end-summary/ --out ../../dist/2023/year-end-summary",
+    "export": "slidev export --output ../2023-01-16-year-end-summary.pdf",
+    "play": "slidev --remote --tunnel"
+  }
+}

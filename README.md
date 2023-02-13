@@ -1,11 +1,12 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# slides
 
-To start the slide show:
+Slides & code for my talks
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+###### 2023
 
-Edit the [slides.md](./slides.md) to see the changes.
+- [广核技术栈交流](./2023-02-13/)
+- [2022年终总结](./2023-01-16/)
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+###### 2022
+
+- [Vitify Admin](./2022-08-17/)
