@@ -8,12 +8,14 @@ importers:
       '@slidev/cli': ^0.40.3
       '@slidev/theme-default': ^0.21.2
       playwright-chromium: ^1.30.0
+      rimraf: ^4.1.2
       typescript: ^4.9.5
     devDependencies:
       '@iconify/json': 2.2.21
       '@slidev/cli': 0.40.3_ymmnvantzfms3xrjm4scv5tb5q
       '@slidev/theme-default': 0.21.2
       playwright-chromium: 1.30.0
+      rimraf: 4.1.2
       typescript: 4.9.5
 
   2022-08-17/src:
@@ -3197,6 +3199,12 @@ packages:
   /reusify/1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+    dev: true
+
+  /rimraf/4.1.2:
+    resolution: {integrity: sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /robust-predicates/3.0.1:
