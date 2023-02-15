@@ -1,0 +1,13 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/cgn-exchange/ --out ../../dist/2023/cgn-exchange",
+    "export": "slidev export --output ../2023-02-13-cgn-exchange.pdf",
+    "play": "slidev --remote --tunnel"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.47"
+  }
+}

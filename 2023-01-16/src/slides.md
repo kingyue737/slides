@@ -115,7 +115,7 @@ layout: section
 <v-clicks>
 
 - ⚡️ **Vite 4, pnpm, ESBuild** - 快得一逼
-- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powerer by Volar
+- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powered by Volar
 - 🍍 **状态管理** - Pinia
 - 🌍 **I18n** - 国际化开箱即用
 - 🧪 **愿检尽检** - Vitest 单元/组件测试 + Cypress E2E 测试

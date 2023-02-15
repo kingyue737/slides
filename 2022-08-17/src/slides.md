@@ -36,7 +36,7 @@ Vitify 是用于快速创建 web 后台应用的起始模板。Vite + Vuetify = 
 <v-clicks>
 
 - ⚡️ **Vite 3, pnpm, ESBuild** - 快得一逼
-- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powerer by Volar
+- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powered by Volar
 - 🔥 **`<script setup>`** - 使用 Vue3 语法
 - 🍍 **状态管理** - Pinia
 - 🧪 **测试** - Vitest 单元/组件测试 + Cypress E2E 测试

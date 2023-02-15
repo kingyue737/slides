@@ -28,7 +28,7 @@
 - ⚡️ **Vite, pnpm, ESBuild** - 快得一逼
 - 🗂️ **Pages** - 基于文件的路由
 - 📑 **布局系统** - 零配置布局
-- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powerer by Volar
+- 🦾 **TypeScript** - 支持 Vuetify2 模板 intelisense, Powered by Volar
 - 🔥 **`<script setup>`** - 使用 Vue3 语法
 - 🍍 **状态管理** - Pinia
 - 🧪 **测试** - Vitest 单元/组件测试 + Cypress E2E 测试
