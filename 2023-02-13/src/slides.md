@@ -95,6 +95,74 @@ growY: 0
 -->
 
 ---
+growX: 100
+growY: 0
+---
+
+# 在线监测系统
+
+<span>ECharts 数据可视化</span>
+<span ml-3>自定义网格布局</span>
+<span ml-3>响应式设计</span>
+
+<img v-click-hide absolute rounded-2 h-sm src="/online-monitor.gif">
+<img v-after absolute rounded-2 h-sm src="/online-monitor.jpg">
+
+
+<!--
+我们的客户需要在不同的显示屏上使用我们的网页客户端，有高分辨率也有低分辨率的，宽屏、方屏等等。我们的响应式设计可以适配不同分辨率的电脑，根据窗口宽度改变成不同的布局，甚至手机上也能正常使用我们在线监测的大部分功能。
+-->
+
+---
+growX: 100
+growY: 0
+---
+
+# 压水堆换料安全分析平台
+
+<v-clicks>
+
+- 数据表格增删改查，结果展示
+- 表单校验
+
+</v-clicks>
+
+<div flex="~" mt-4>
+
+<img v-click="1" src="/refueling-safety.jpg" rounded-3 min-w-0>
+
+<img v-click="2" src="/refueling-safety.gif" rounded-3 min-w-0 ml-4>
+
+</div>
+
+<!---->
+
+---
+growX: 100
+growY: 0
+---
+
+# 环保部安审中心AI审评系统
+
+- UI多样化交互模式
+- `pdfjs` 实现报告渲染和数据操作
+
+<div flex="~" mt-4>
+
+<img v-click src="/safety-report.jpg" rounded-3 min-w-0>
+
+<img v-click src="/safety-report2.jpg" rounded-3 min-w-0 ml-4>
+
+</div>
+
+---
+growX: 100
+growY: 0
+---
+
+# OREINT 2
+
+---
 layout: center
 growX: 50
 growY: 120
@@ -118,21 +186,18 @@ growY: 0
 <v-clicks>
 
 <div flex="~ col" items-center>
-<!-- <img w-20 mb6 src="/vite.svg"> -->
 <logos-vitejs text-4.6rem mb6 />
 <div text-2xl>Vite</div>
 <div text-base op50>Next Generation Frontend Tooling</div>
 </div>
 
 <div flex="~ col" items-center>
-<!-- <img w-20 mb6 src="/vite-node.svg"> -->
 <logos-vue text-4.6rem mb6 />
 <div text-2xl>Vue</div>
 <div text-base op50>Progressive JavaScript Framework</div>
 </div>
 
 <div flex="~ col" items-center>
-<!-- <div text-4.6rem>⚗️</div> -->
 <logos-vuetifyjs text-4.6rem mb6 />
 <div text-2xl>Vuetify</div>
 <div text-base op50>Material Design UI Library</div>
@@ -148,19 +213,29 @@ growY: 0
 ---
 growX: 60
 growY: 60
+layout: two-cols
 ---
 
 # 核领域前端解决方案
 
 <v-clicks>
 
-- 可交互的组件功率分布图
+- 可交互的组件功率分布图 (方形、六角形)
 
 - 象限功率倾斜
 - 运行梯形图
+- 轴向分布、历史趋势图
+- 建模材料成分图
+- 表单表格
+- ...
 - 自研脚手架
 
 </v-clicks>
+
+::right::
+
+<img v-click="1" src="/section.jpg" class="rounded-md ml-15 h-15rem">
+<img v-click="2" src="/qptr.png" class="rounded-md mt-2 ml-20 h-15rem">
 
 <!--
 提炼了许多常用的组件供不同项目复用。
@@ -213,7 +288,7 @@ h1 {
 </style>
 
 <!--
-在github上很多前端领域的大佬也给我们的项目打了星，对其中的一些优秀的工程实践和微创新给出了他们的赞誉。我可以说有这个信心，我们的脚手架是放眼整个社区同类项目里是最好的。
+在github上很多前端领域的大佬也给我们的项目打了星，对其中的一些优秀的工程实践和微创新给出了他们的赞誉。我可以说有这个信心，我们的脚手架是放眼整个社区同类项目里是最好的。紧跟潮流，最新技术栈，大厂用什么我们也用什么。
 -->
 
 ---
@@ -238,6 +313,7 @@ class: important-bg-contain
 ---
 growX: 80
 growY: 80
+preload: false
 ---
 
 # <img src="/vtk.svg" h-10 class="-mt-2" inline /> - The Visualization Toolkit
@@ -245,7 +321,8 @@ growY: 80
 3D数据可视化
 
 <div absolute right-15 bottom-40 style="height:260px; border-radius:30px" overflow-hidden>
-<iframe src="https://kitware.github.io/vtk-js/examples/SimpleCone/index.html" allowvr="yes" allow="xr-spatial-tracking" scrolling="no" class="-m-3" h-xs style="mix-blend-mode: lighten; filter: contrast(1.7)"/>
+<iframe id="cone-example" src="https://kitware.github.io/vtk-js/examples/SimpleCone/index.html" allowvr="yes" allow="xr-spatial-tracking" scrolling="no" allowtransparency="true" class="-m-3" h-xs style="mix-blend-mode: lighten; filter: contrast(1.7); background:transparent"
+/>
 </div>
 
 <v-clicks>
@@ -302,6 +379,12 @@ growY: 50
 
 <!--
  近10年来，即便是Qt也在往web前端上靠，推出了QML这样类似于CSS和JSON的声明式语言，并可以内联JavaScript代码。
+ JavaScript拥有整个编程领域最庞大的生态。雷打不动，多年来稳坐第一的宝座。
+- ECharts 数据可视化
+- Grid Layout 自定义网格布局
+- VeeValidate 表单校验 规避人因失误
+- pdfjs 前端界面和pdf交互
+不用重复造轮子，可以直接整合社区中最好的解决方案。
 -->
 
 ---
@@ -369,7 +452,7 @@ growY: 120
 
 # Thank You!
 
-Slides on [docs.nustarnuclear.com](https://nustarnuclear.com)
+<!-- Slides on [yjin.nustarnuclear.com](https://nustarnuclear.com) -->
 
 <!--
 这是我所有要分享的内容，谢谢各位的聆听。
