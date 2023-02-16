@@ -116,6 +116,7 @@ growY: 0
 ---
 growX: 100
 growY: 0
+clicks: 2
 ---
 
 # 压水堆换料安全分析平台
@@ -214,6 +215,7 @@ growY: 0
 growX: 60
 growY: 60
 layout: two-cols
+clicks: 8
 ---
 
 # 核领域前端解决方案
