@@ -42,7 +42,7 @@ style: 'padding-left: 8rem;'
 
 <div my-10 w-min flex="~ gap-1" items-center justify-center whitespace-nowrap>
   <mdi-user-circle op50 ma text-xl/>
-  <div><a href="https://www.nustarnuclear.com/about/our-team/yjin" target="_blank" class="border-none! font-300">yjin</a></div>
+  <div><a href="https://www.nustarnuclear.com/about/our-team" target="_blank" class="border-none! font-300">yjin</a></div>
   <mdi-github op50 ma text-xl ml4/>
   <div><a href="https://github.com/kingyue737" target="_blank" class="border-none! font-300">kingyue737</a></div>
   <mdi-stackoverflow op50 ma text-xl ml4/>
@@ -190,18 +190,21 @@ growY: 0
 <logos-vitejs text-4.6rem mb6 />
 <div text-2xl>Vite</div>
 <div text-base op50>Next Generation Frontend Tooling</div>
+<div text-xs>极速启动；超快热重载；丰富的插件</div>
 </div>
 
 <div flex="~ col" items-center>
 <logos-vue text-4.6rem mb6 />
 <div text-2xl>Vue</div>
 <div text-base op50>Progressive JavaScript Framework</div>
+<div text-xs>性能出色，适用场景广泛的 Web 前端框架</div>
 </div>
 
 <div flex="~ col" items-center>
 <logos-vuetifyjs text-4.6rem mb6 />
 <div text-2xl>Vuetify</div>
 <div text-base op50>Material Design UI Library</div>
+<div text-xs>组件功能丰富；谷歌设计，简洁美观</div>
 </div>
 
 </v-clicks>
@@ -428,22 +431,35 @@ growY: 90
 - 开发文档
 
 - 用户手册
-
 - 幻灯片
-
 - 门户网站
 
 </v-clicks>
 
-<v-click>
-
-[nustarnuclear.com](https://www.nustarnuclear.com)
-
-</v-click>
-
 <!--
 包括我们的公司官网，也是我们自己写的。基于现代前端技术栈打造，也是多年以前我们试水新的前端框架顺便写的一个小项目。我们公司呢在未来会继续专注于核工业软件前端产品开发上。如果说广核有什么网页app开发的需要，我们可以一起探讨合作的可能。
 -->
+
+---
+growX: 100
+growY: 50
+---
+
+# 核星的优势
+
+承接堆工软件计算平台Web前端开发
+
+<v-clicks>
+
+- **全面的交付能力：** 前后端分离，浏览器兼容性良好，兼顾设计与开发
+
+- **合理的技术选型：** 先进且成熟稳定，开源可控，关键模块自研
+- **极致的开发效率：** 基于核星自研的 Vitify Admin 企业级前端模板，未来也将持续升级
+- **强大的数据可视化：** 全面的堆芯数据可视化（包括3D）开发能力
+- **丰富的开发经验：** 双方团队专业软件产品类型相似，核星前端团队已有丰富的经验积累
+- **良好的业务对接：** 团队自身有堆工专业基础，且与专业软件开发人员有充分的沟通经验
+
+</v-clicks>
 
 ---
 layout: intro
@@ -454,7 +470,7 @@ growY: 120
 
 # Thank You!
 
-<!-- Slides on [yjin.nustarnuclear.com](https://nustarnuclear.com) -->
+Slides on [nustarnuclear.com](https://yjin.nustarnuclear.com/2023/cgn-exchange/)
 
 <!--
 这是我所有要分享的内容，谢谢各位的聆听。
