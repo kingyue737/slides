@@ -1,6 +1,7 @@
 ---
 layout: cover
 highlighter: shiki
+presenter: dev
 css: unocss
 colorSchema: dark
 transition: fade-out
@@ -163,6 +164,14 @@ growY: 0
 
 # ORIENT 2
 
+<div flex="~" mt-4>
+
+<img v-click src="/orient.jpg" rounded-3 min-w-0>
+
+<img v-click src="/orient.gif" rounded-3 min-w-0 ml-4>
+
+</div>
+
 ---
 layout: center
 growX: 50
@@ -310,11 +319,15 @@ growY: 80
 
 # <img src="/vtk.svg" h-10 class="-mt-2" inline /> - The Visualization Toolkit
 
+<v-clicks>
+
 - 基于VTK进行3D数据可视化开发
 
 - 针对堆芯物理计算模型深度定制
 - 丰富的视图模式，呈现更全面的数据可视化
 - 标准化数据格式，便于与后台专业程序集成
+
+</v-clicks>
 
 ---
 layout: image
@@ -334,7 +347,7 @@ preload: false
 
 # <img src="/vtk.svg" h-10 class="-mt-2" inline /> - The Visualization Toolkit
 
-3D数据可视化
+Web 3D数据可视化
 
 <div absolute right-15 bottom-40 style="height:260px; border-radius:30px" overflow-hidden>
 <iframe id="cone-example" src="https://kitware.github.io/vtk-js/examples/SimpleCone/index.html" allowvr="yes" allow="xr-spatial-tracking" scrolling="no" allowtransparency="true" class="-m-3" h-xs style="mix-blend-mode: lighten; filter: contrast(1.7); background:transparent"
