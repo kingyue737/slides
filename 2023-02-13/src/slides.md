@@ -161,7 +161,7 @@ growX: 100
 growY: 0
 ---
 
-# OREINT 2
+# ORIENT 2
 
 ---
 layout: center
@@ -181,7 +181,7 @@ growX: 50
 growY: 0
 ---
 
-# 主要框架
+# 主要技术栈
 
 <div flex="~" justify-evenly items-center h-90>
 <v-clicks>
@@ -221,7 +221,7 @@ layout: two-cols
 clicks: 8
 ---
 
-# 核领域前端解决方案
+# 堆芯领域前端解决方案
 
 <v-clicks>
 
@@ -233,7 +233,7 @@ clicks: 8
 - 建模材料成分图
 - 表单表格
 - ...
-- 自研脚手架
+- 自研模板
 
 </v-clicks>
 
@@ -257,9 +257,9 @@ growY: 40
 
 <v-clicks>
 
-- 🌍 **I18n** - 国际化开箱即用
-- 🧪 **愿检尽检** - Vitest 单元/组件测试 + Cypress E2E 测试
-- 💩 **PostCSS + Babel** - 旧浏览器兼容
+- 🌍 **I18n** - 国际化
+- 🧪 **应测尽测** - Vitest 单元/组件测试 + Cypress E2E 测试
+- ⚖️ **PostCSS + Babel** - 旧浏览器兼容
 - 🪟 **后台管理系统布局** - 内置应用栏、状态栏和自动生成的导航栏
 - 🖼️ **风格清新简洁** - Material Design, 自定义主题色
 - 🤡 **Mock Service Worker** - 开发与测试环境下模拟后端数据
@@ -303,7 +303,11 @@ growY: 80
 
 # <img src="/vtk.svg" h-10 class="-mt-2" inline /> - The Visualization Toolkit
 
-Core Visualizer
+- 基于VTK进行3D数据可视化开发
+
+- 针对堆芯物理计算模型深度定制
+- 丰富的视图模式，呈现更全面的数据可视化
+- 标准化数据格式，便于与后台专业程序集成
 
 ---
 layout: image
@@ -334,9 +338,9 @@ preload: false
 
 - VTK C++
 
-- vtk.js
-- ParaView-Web / VTK-Web Python
-- trame
+- vtk.js - 在浏览器中展示科学数据3D模型
+- ParaView-Web / VTK-Web Python - 服务端渲染
+- trame - 前后端一体化
 
 </v-clicks>
 
