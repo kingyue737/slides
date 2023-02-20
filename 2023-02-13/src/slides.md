@@ -244,6 +244,13 @@ clicks: 8
 
 <!--
 提炼了许多常用的组件供不同项目复用。
+
+ JavaScript拥有整个编程领域最庞大的生态。雷打不动，多年来稳坐第一的宝座。
+- ECharts 数据可视化
+- Grid Layout 自定义网格布局
+- VeeValidate 表单校验 规避人因失误
+- pdfjs 前端界面和pdf交互
+不用重复造轮子，可以直接整合社区中最好的解决方案。
 -->
 
 ---
@@ -346,74 +353,6 @@ preload: false
 
 <!--
  
--->
-
----
-growX: 0
-growY: 50
----
-
-# 桌面客户端 <span v-click="2"> - 基于Web技术</span>
-
-<v-clicks at="1">
-
-- Qt Widgets
-
-- Electron / Tauri
-
-</v-clicks>
-
-<div v-click="3" flex="~ wrap" justify-evenly items-center w-80 h-70>
-<logos-notion-icon />
-<logos-whatsapp-icon />
-<logos-discord-icon />
-<logos-figma />
-<logos-skype style="margin-left: 40px" />
-<logos-visual-studio-code />
-<logos-microsoft-teams />
-<logos-twitch />
-<logos-dropbox />
-<img src="/github-desktop.svg" alt="GitHub Desktop" />
-<img h-10 src="https://cdn.worldvectorlogo.com/logos/tencent-qq.svg" alt="Tencent QQ">
-</div>
-
-
-<style>
-  img, svg{
-    width: 50px;
-    height: 50px;
-    margin-left: 30px;
-  }
-</style>
-
-<!--
- 近10年来，即便是Qt也在往web前端上靠，推出了QML这样类似于CSS和JSON的声明式语言，并可以内联JavaScript代码。
- JavaScript拥有整个编程领域最庞大的生态。雷打不动，多年来稳坐第一的宝座。
-- ECharts 数据可视化
-- Grid Layout 自定义网格布局
-- VeeValidate 表单校验 规避人因失误
-- pdfjs 前端界面和pdf交互
-不用重复造轮子，可以直接整合社区中最好的解决方案。
--->
-
----
-growX: 40
-growY: 10
----
-# KeyCloak
-
-单点登录，用户统一管理及鉴权
-
-<div flex="~">
-
-<img v-click src="/keycloak-login.jpg" rounded-5 min-w-0>
-
-<img v-click src="/keycloak-console.jpg" rounded-5 min-w-0 ml-4>
-
-</div>
-
-<!--
-随着产品数量的增加，我们为核星的产品整合了单点登录功能。
 -->
 
 ---
